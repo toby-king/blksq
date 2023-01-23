@@ -1,14 +1,10 @@
 @font-face {
-	font-family: "League Spartan SemiBold";
-	src: url("assets/fonts/LeagueSpartan-SemiBold.ttf") format("truetype");
+	font-family: "DMSans SemiBold";
+	src: url("assets/fonts/DMSans-SemiBold.ttf") format("truetype");
 }
 @font-face {
-    font-family: "League Spartan";
-    src: url("assets/fonts/LeagueSpartan-Regular.ttf");
-}
-@font-face {
-    font-family: "League Spartan Thin";
-    src: url("assets/fonts/LeagueSpartan-Thin.ttf");
+    font-family: "DMSans";
+    src: url("assets/fonts/DMSans-Regular.ttf");
 }
 #page {
     position: absolute;
@@ -30,7 +26,7 @@
     height: auto;
 }
 .text-thin {
-    font-family: "League Spartan Thin";
+    font-family: "DMSans Thin";
     background-color: #fff;
     margin: 0;
     padding: 0.5rem;
