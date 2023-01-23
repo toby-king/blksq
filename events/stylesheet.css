@@ -6,6 +6,10 @@
     font-family: "DMSans Medium";
     src: url("/assets/fonts/DMSans-Medium.ttf");
 }
+@font-face {
+  font-family: "DMSans Light";
+  src: url();
+}
 body {
     background-color: #000;
 }
@@ -114,9 +118,15 @@ li {
 #feedback-text {
     padding: 5rem;
 }
+.partner {
+  max-width: 20rem;
+}
 .footer {
     border-top: 2px solid #fff;
     color: #fff;
+}
+.footer p {
+  font-size: 1rem;
 }
 
 /*Animations*/
