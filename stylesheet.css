@@ -14,6 +14,9 @@ a {
     text-decoration: none;
     color: #fff;
 }
+video::-internal-media-controls-overlay-cast-button {
+    display: none;
+}
 #page {
     position: absolute;
     min-height: 100vh;
