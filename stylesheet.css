@@ -1,10 +1,18 @@
 @font-face {
-	font-family: "DMSans SemiBold";
-	src: url("assets/fonts/DMSans-SemiBold.ttf") format("truetype");
+	font-family: "LeagueSpartan Light";
+	src: url("assets/fonts/LeagueSpartan-Light.ttf") format("truetype");
 }
 @font-face {
     font-family: "DMSans";
     src: url("assets/fonts/DMSans-Regular.ttf");
+}
+body {
+    background-color: #000;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+    color: #fff;
 }
 #page {
     position: absolute;
@@ -14,20 +22,29 @@
     align-items: center;
     z-index: 1;
 }
+.links {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: right;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    font-family: "LeagueSpartan Light";
+}
+.links a:hover  {
+    text-decoration: underline;
+    color: #fff;
+}
 #page .container {
     width: auto;
 }
-#cs-title {
-    margin-left: 30%;
-    margin-right: 30%;
-}
 .logo {
-    max-width: 15vw;
+    max-width: 20vw;
     height: auto;
 }
 .text-thin {
-    font-family: "DMSans Thin";
-    background-color: #fff;
+    font-family: "LeagueSpartan Light";
+    color: #fff;
     margin: 0;
     padding: 0.5rem;
 }
@@ -39,11 +56,30 @@
 }
 .delay {
     opacity: 0;
-    animation-delay: 0.75s;
+    animation-delay: 1.5s;
 }
-.delay-2 {
-    opacity: 0;
-    animation-delay: 1.8s;
+.email-form {
+    border-radius: 0;
+    width: 50%;
+    margin: 0 auto;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #b2b2b2;
+    color: #fff;
+    font-family: "LeagueSpartan Light";
+    font-size: 1.5rem;
+}
+.email-form:focus {
+    outline: none;
+    border-bottom: 1px solid #fff;
+}
+.submit {
+    background: none;
+    border: none;
+    border-bottom: 1px solid
+}
+.submit svg:hover {
+    fill: #fff;
 }
 
 @keyframes fadeIn {
