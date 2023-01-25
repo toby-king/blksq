@@ -79,10 +79,13 @@ video::-internal-media-controls-overlay-cast-button {
 .submit {
     background: none;
     border: none;
-    border-bottom: 1px solid
 }
 .submit svg:hover {
     fill: #fff;
+}
+.submit:focus {
+    border: none;
+    background: none;
 }
 
 @keyframes fadeIn {
