@@ -121,7 +121,8 @@ li {
     padding: 5rem;
 }
 .partner {
-  max-width: 20rem;
+  max-width: 20vw;
+  min-width: 16rem;
 }
 .footer {
     border-top: 2px solid #fff;
